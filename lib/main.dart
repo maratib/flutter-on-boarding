@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_quick_start/onboarding/center_page.dart';
 import 'package:flutter_quick_start/onboarding/onboarding.dart';
 
 void main() {

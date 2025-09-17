@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_quick_start/onboarding/boarding_paage.dart';
+import 'package:flutter_quick_start/onboarding/boarding.dart';
 import 'package:flutter_svg/svg.dart';
 
 class OnBoarding extends StatelessWidget {
@@ -20,25 +20,25 @@ class OnBoarding extends StatelessWidget {
         ),
         PageView(
           children: [
-            BoardingPage(
+            Boarding(
               imageName: "screen1",
               title: "Track Your Goal",
               description:
                   "Don't worry if you have trouble determining\n your goals, We can help you determine your\n goals and track your goals",
             ),
-            BoardingPage(
+            Boarding(
               imageName: "screen2",
               title: "Get Burn",
               description:
                   "Let’s keep burning, to achive yours goals, it\nhurts only temporarily, if you give up now\n you will be in pain forever",
             ),
-            BoardingPage(
+            Boarding(
               imageName: "screen3",
               title: "Eat Well",
               description:
                   "Let's start a healthy lifestyle with us, we can\ndetermine your diet every day. healthy\neating is fun",
             ),
-            BoardingPage(
+            Boarding(
               imageName: "screen4",
               title: "Improve Sleep Quality",
               description:

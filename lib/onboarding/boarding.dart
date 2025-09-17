@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-class BoardingPage extends StatelessWidget {
+class Boarding extends StatelessWidget {
   final String title;
   final String description;
   final String imageName;
 
-  const BoardingPage({
+  const Boarding({
     super.key,
     required this.imageName,
     required this.title,
